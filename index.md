@@ -301,7 +301,7 @@ We will use this <a href="{{ page.collaborative_notes }}">collaborative document
 <h2>SESSION INFO GOOGLE DOC</h2>
 
 <p>
-  Session Info Google Doc at <a href="https://docs.google.com/document/d/1Pj1igupTrAa04KyEx19OTJVi8j-O5n2aKE7DtUcjcFQ/edit">https://docs.google.com/document/d/1Pj1igupTrAa04KyEx19OTJVi8j-O5n2aKE7DtUcjcFQ/edit</a>
+  Session Info Google Doc at <a href="https://docs.google.com/document/d/1Pj1igupTrAa04KyEx19OTJVi8j-O5n2aKE7DtUcjcFQ/edit">https://docs.google.com/document/d/1b3c4Um68zARppshBoxQ5uotrOjG0_Vn50VuVo-Wk1z8/edit?usp=sharing</a>
 <p>
 
 {% comment %}
@@ -338,6 +338,7 @@ of code below the Schedule `<h2>` header below with
 `{% include custom-schedule.html %}`.
 {% endcomment %}
 
+<!--
 <h2 id="schedule">Schedule</h2>
 
 {% if site.carpentry == "swc" %}
@@ -354,7 +355,7 @@ See the contents of the _includes/custom_schedule.html file for an example of
 how one of these schedule tables is constructed.
 {% endcomment %}
 {% endif %}
-
+-->
 <hr/>
 
 
