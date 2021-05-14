@@ -358,6 +358,146 @@ how one of these schedule tables is constructed.
 -->
 <hr/>
 
+{% comment %}
+SYLLABUS
+
+Show what topics will be covered.
+
+1. If your workshop is R rather than Python, remove the comment
+around that section and put a comment around the Python section.
+2. Some workshops will delete SQL.
+3. Please make sure the list of topics is synchronized with what you
+intend to teach.
+4. You may need to move the div's with class="col-md-6" around inside
+the div's with class="row" to balance the multi-column layout.
+
+This is one of the places where people frequently make mistakes, so
+please preview your site before committing, and make sure to run
+'tools/check' as well.
+{% endcomment %}
+
+
+<h2 id="syllabus">SYLLABUS</h2>
+
+<div class="row">
+  <div class="col-md-6">
+    <h3 id="syllabus-shell">The Unix Shell</h3>
+    <ul>
+      <li>Files and Directories</li>
+      <li>History and Tab Completion</li>
+      <li>Pipes and Redirection</li>
+      <li>Looping Over Files</li>
+      <li>Creating and Running Shell Scripts</li>
+      <li>Finding Things</li>
+    </ul> 
+    <u>Resources:</u>
+      <ul>
+		  <li><a href="{{site.swc_pages}}/shell-novice/reference">Shell Quick Reference</a></li>
+		  <li><a href="{{site.swc_pages}}/shell-novice">Shell Lessons</a></li>
+      <li><a href="http://explainshell.com/" target="_blank"><em>Explain Shell</em> (Parses shell commands and shows docs about the command)</a></li>
+		  <li><a href="http://www.shellcheck.net/" target="_blank"><em>ShellCheck</em> (Identifies bugs in shell scripts)</a></li>
+		  <li><a href="http://man.he.net/" target="_blank"><em>Linux Man Pages Online</em> (Same content as command line man/help pages)</a></li>
+	  </ul>
+  </div>
+  <div class="col-md-6">
+    <h3 id="syllabus-git">Version Control with Git</h3>
+    <ul>
+      <li>Creating a Repository</li>
+      <li>Recording Changes to Files: <code>add</code>, <code>commit</code>, ...</li>
+      <li>Viewing Changes: <code>status</code>, <code>diff</code>, ...</li>
+      <li>Ignoring Files</li>
+      <li>Working on the Web: <code>clone</code>, <code>pull</code>, <code>push</code>, ...</li>
+      <li>Resolving Conflicts</li>
+      <li>Open Licenses</li>
+      <li>Where to Host Work, and Why</li>
+    </ul>
+    <u>Resources:</u>
+	  <ul>
+		  <li><a href="{{site.swc_pages}}/git-novice/reference">Git Quick Reference</a></li>
+		  <li><a href="{{site.swc_pages}}/git-novice">Git Lessons</a></li>
+      <li><a href="https://git-scm.com/book/en/v2/Git-in-Other-Environments-Git-in-Bash" target="_blank"><i>Mac/Linux:</i> Integrating Git into your shell prompt</a></li>
+		  <li><a href="https://github.com/magicmonty/bash-git-prompt" target="_blank">An informative and fancy bash prompt for Git users</a></li>
+		  <li><a href="https://education.github.com/pack" target="_blank">Unlimited <em>private</em> repositories for free on Github, <i>while you are a student</i></a></li>
+		  <li><a href="https://git-annex.branchable.com/" target="_blank">Git for Archiving Data</a></li>
+	  </ul>
+  </div>
+</div>
+
+<!--
+<div class="row">
+<div class="col-md-6">
+    <h3 id="syllabus-python">Programming in Python</h3>
+    <ul>
+      <li>Using Libraries</li>
+      <li>Working with Arrays</li>
+      <li>Reading and Plotting Data</li>
+      <li>Creating and Using Functions</li>
+      <li>Loops and Conditionals</li>
+      <li>Defensive Programming</li>
+      <li>Using Python from the Command Line</li>
+      <li><a href="{{site.swc_pages}}/python-novice-inflammation/reference">Reference...</a></li>
+    </ul>
+  </div>
+  
+  <div class="col-md-6">
+    <h3 id="syllabus-r">Programming in R</h3>
+    <ul>
+      <li>Working with Vectors and Data Frames</li>
+      <li>Reading and Plotting Data</li>
+      <li>Creating and Using Functions</li>
+      <li>Loops and Conditionals</li>
+      <li>Using R from the Command Line</li>
+      <li><a href="{{site.swc_pages}}/r-novice-inflammation/reference">Reference...</a></li>
+    </ul>
+  </div>
+</div>
+
+<div class="row">
+    <div class="col-md-6">
+    <h3 id="syllabus-matlab">Programming in MATLAB</h3>
+    <ul>
+      <li>Working with Arrays</li>
+      <li>Reading and Plotting Data</li>
+      <li>Creating and Using Functions</li>
+      <li>Loops and Conditionals</li>
+      <li>Defensive Programming</li>
+      <li><a href="{{site.swc_pages}}/matlab-novice-inflammation/reference">Reference...</a></li>
+     </ul>
+   </div>
+  
+  <div class="col-md-6">
+    <h3 id="syllabus-sql">Managing Data with SQL</h3>
+    <ul>
+      <li>Reading and Sorting Data</li>
+      <li>Filtering with <code>where</code></li>
+      <li>Calculating New Values on the Fly</li>
+      <li>Handling Missing Values</li>
+      <li>Combining Values Using Aggregation</li>
+      <li>Combining Information From Multiple Tables Using <code>join</code></li>
+      <li>Creating, Modifying, and Deleting Data</li>
+      <li>Programming with Databases</li>
+      <li><a href="{{site.swc_pages}}/sql-novice-survey/reference">Reference...</a></li>
+    </ul>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-6">
+    <h3 id="syllabus-r">Open Refine</h3>
+    <ul>
+      <li>Introduction to OpenRefine</li>
+      <li>Importing Data</li>
+      <li>Basic Functions</li>
+      <li>Advanced Functions</li>
+      <li><a href="{{site.lc_pages}}library-openrefine/reference">Reference...</a></li>
+    </ul>
+  </div>
+</div>
+-->
+
+<hr/>
+
+{% comment %}
 
 {% comment %}
 SETUP
