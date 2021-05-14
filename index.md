@@ -9,8 +9,8 @@ country: "us"      # lowercase two-letter ISO country code such as "fr" (see htt
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the
 latitude: "32.231901"        # decimal latitude of workshop venue (use https://www.latlong.net/)
 longitude: "110.9495000"       # decimal longitude of the workshop venue (use https://www.latlong.net)
-humandate: "June 7, 2021"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
-humantime: "June 11, 2021"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
+humandate: "June 8, 2021"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+humantime: "8:00 am - 12:00 pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2021-06-07      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2021-06-11        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Uwe Hilgert & Instructor Team"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
@@ -75,8 +75,9 @@ displayed if the 'eventbrite' field in the header is not set.
 </iframe>
 {% endif %}
 
+<h2 id="general">FOUNDATIONAL COMPUTATIONAL SKILLS</h2>
 
-<h2 id="general">General Information</h2>
+<h3 id="general">General Information</h3>
 
 {% comment %}
 INTRODUCTION
