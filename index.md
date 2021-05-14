@@ -13,7 +13,7 @@ humandate: "June 7, 2021"    # human-readable dates for the workshop (e.g., "Feb
 humantime: "June 11, 2021"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2021-06-07      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2021-06-11        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["Uwi Hilgert & Instructor Team"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+instructor: ["Uwe Hilgert & Instructor Team"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: ["KEYS Crew", "KEYS Staff", "Jonathan King", "Isabella Viney"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["hilgert@bio5.org"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes: http://pad.software-carpentry.org/KEYS2021-Training # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
@@ -358,7 +358,51 @@ how one of these schedule tables is constructed.
 -->
 <hr/>
 
+<h2 id="syllabus">SYLLABUS</h2>
 
+<div class="row">
+  <div class="col-md-6">
+    <h3 id="syllabus-shell">The Unix Shell</h3>
+    <ul>
+      <li>Files and Directories</li>
+      <li>History and Tab Completion</li>
+      <li>Pipes and Redirection</li>
+      <li>Looping Over Files</li>
+      <li>Creating and Running Shell Scripts</li>
+      <li>Finding Things</li>
+    </ul> 
+    <u>Resources:</u>
+      <ul>
+		  <li><a href="{{site.swc_pages}}/shell-novice/reference">Shell Quick Reference</a></li>
+		  <li><a href="{{site.swc_pages}}/shell-novice">Shell Lessons</a></li>
+      <li><a href="http://explainshell.com/" target="_blank"><em>Explain Shell</em> (Parses shell commands and shows docs about the command)</a></li>
+		  <li><a href="http://www.shellcheck.net/" target="_blank"><em>ShellCheck</em> (Identifies bugs in shell scripts)</a></li>
+		  <li><a href="http://man.he.net/" target="_blank"><em>Linux Man Pages Online</em> (Same content as command line man/help pages)</a></li>
+	  </ul>
+  </div>
+  <div class="col-md-6">
+    <h3 id="syllabus-git">Version Control with Git</h3>
+    <ul>
+      <li>Creating a Repository</li>
+      <li>Recording Changes to Files: <code>add</code>, <code>commit</code>, ...</li>
+      <li>Viewing Changes: <code>status</code>, <code>diff</code>, ...</li>
+      <li>Ignoring Files</li>
+      <li>Working on the Web: <code>clone</code>, <code>pull</code>, <code>push</code>, ...</li>
+      <li>Resolving Conflicts</li>
+      <li>Open Licenses</li>
+      <li>Where to Host Work, and Why</li>
+    </ul>
+    <u>Resources:</u>
+	  <ul>
+		  <li><a href="{{site.swc_pages}}/git-novice/reference">Git Quick Reference</a></li>
+		  <li><a href="{{site.swc_pages}}/git-novice">Git Lessons</a></li>
+      <li><a href="https://git-scm.com/book/en/v2/Git-in-Other-Environments-Git-in-Bash" target="_blank"><i>Mac/Linux:</i> Integrating Git into your shell prompt</a></li>
+		  <li><a href="https://github.com/magicmonty/bash-git-prompt" target="_blank">An informative and fancy bash prompt for Git users</a></li>
+		  <li><a href="https://education.github.com/pack" target="_blank">Unlimited <em>private</em> repositories for free on Github, <i>while you are a student</i></a></li>
+		  <li><a href="https://git-annex.branchable.com/" target="_blank">Git for Archiving Data</a></li>
+	  </ul>
+  </div>
+</div>
 
 {% comment %}
 SETUP
