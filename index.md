@@ -362,7 +362,8 @@ how one of these schedule tables is constructed.
 
 <div class="row">
   <div class="col-md-6">
-    <h3 id="syllabus-shell">The Unix Shell</h3>
+    <h3 id="syllabus-shell">The Command Shell</h3>
+    The command shell (a.k.a. UNIX Shell, Bash Shell, Shell) is a power tool that allows computer users to do complex things with just a few keystrokes. Contrary to graphical user interfaces (GUI) it allows users to direct the computer from a more foundational level, using written commands. Even what happens when you click on items in GUIs is directed by commands on the command level. Working in the 'Shell' helps users combine existing programs in new ways and automate repetitive tasks so they aren’t typing the same things over and over again. Use of the shell is fundamental to using a wide range of other powerful tools and computing resources (including “high-performance computing” supercomputers). These lessons will start you on a path towards using these resources effectively. The workshop will introduce these Shell concepts and procedures:
     <ul>
       <li>Files and Directories</li>
       <li>History and Tab Completion</li>
@@ -382,6 +383,7 @@ how one of these schedule tables is constructed.
   </div>
   <div class="col-md-6">
     <h3 id="syllabus-git">Version Control with Git</h3>
+    Version control is the lab notebook of the digital world: it’s what professionals use to keep track of what they’ve done and to collaborate with other people. Every large software development project relies on it, and most programmers use it for their small jobs as well. And it isn’t just for software: books, papers, small data sets, and anything that changes over time or might need to be shared can and should be stored in a version control system. Using git (on your local computer) and GitHub (in the cloud), the workshop will introduce these version control concepts and procedures:
     <ul>
       <li>Creating a Repository</li>
       <li>Recording Changes to Files: <code>add</code>, <code>commit</code>, ...</li>
