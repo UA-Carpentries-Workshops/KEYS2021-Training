@@ -309,9 +309,9 @@ how one of these schedule tables is constructed.
 <div class="row">
   <div class="col-md-6">
     <h3 id="syllabus-shell">The Command Shell</h3>
-    The command shell (a.k.a. UNIX Shell, Bash Shell, Shell) is a power tool that allows computer users to do complex things with just a few keystrokes. Contrary to graphical user interfaces (GUI) it allows users to direct the computer from a more foundational level, using written commands. Even what happens when you click on items in GUIs is directed by commands on the command level. Working in the 'Shell' helps users combine existing programs in new ways and automate repetitive tasks so they aren’t typing the same things over and over again. Use of the shell is fundamental to using a wide range of other powerful tools and computing resources (including “high-performance computing” supercomputers).<br>
+    The command shell (a.k.a. UNIX Shell, Bash Shell, Shell) is a power tool that allows computer users to do complex things with just a few keystrokes. Contrary to graphical user interfaces (GUI) it allows users to direct the computer from a more foundational level, using written commands. Even what happens when you click on items in GUIs is directed by written commands. Working in the 'Shell' helps users combine existing programs in new ways and automate repetitive tasks so they aren’t typing the same things over and over again. Shell proficiency is fundamental to using a wide range of other powerful tools and computing resources, including “high-performance computing” supercomputers.<br>
     <br>
-    Using the Bash Shell the workshop will introduce these command shell concepts and procedures:<br>
+    Using the Bash Shell the workshop will introduce these concepts and procedures:<br>
     <br>
     <ul>
       <li>Files and Directories</li>
