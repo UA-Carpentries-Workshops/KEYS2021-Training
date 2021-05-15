@@ -1,10 +1,9 @@
 <div id="shell">
   <h3>The Bash Shell</h3>
   <p>
-    Bash is a commonly-used shell that gives you the power to do
-    tasks more quickly.
+    Bash is a commonly-used command shell that gives you the power to do tasks more quickly on your computer.
+	  This implementation is called 'Git Bash' and will provide you with the Bash command shell and the version control software git at once.
   </p>
-
   <div>
     <ul class="nav nav-tabs" role="tablist">
       <li role="presentation" class="active"><a data-os="windows" href="#shell-windows" aria-controls="Windows" role="tab" data-toggle="tab">Windows</a></li>
@@ -16,7 +15,7 @@
       <article role="tabpanel" class="tab-pane active" id="shell-windows">
         <ol>
           <li>Download the Git for Windows <a href="https://gitforwindows.org/">installer</a>.</li>
-          <li>Run the installer and follow the steps below:
+          <li>Run the installer by double-clicking it and follow the steps below:
             <ol>
               {% comment %} Git 2.29.1 Setup {% endcomment %}
               <li>
@@ -25,14 +24,12 @@
                 in the Information, location, components, and start menu screens.
               </li>
               <li>
-                <strong>
-                  From the dropdown menu select "Use the Nano editor by default" (NOTE: you will need to scroll <emph>up</emph> to find it) and click on "Next".
-                </strong>
+                  From the dropdown menu select "Use the Nano editor by default" (scroll <emph>up</emph> to find it) and click on "Next".
               </li>
               {% comment %} Adjusting the name of the initial branch in new repositories {% endcomment %}
               <li>
                 On the page that says "Adjusting the name of the initial branch in new repositories", ensure that
-		"Let Git decide" is selected. This will ensure the highest level of compatibility for our lessons.
+		"Let Git decide" is selected. This will ensure the highest level of compatibility for our lessons. Click on "Next".
 		{% comment %}
 		This section also has "Override the default branch name for new repositories" and has a text box set
 		to "main". I'm not having people switch to this just yet because our git lesson still uses the old paradigm.
@@ -58,16 +55,14 @@
               </li>
               {% comment %} Configuring the terminal emulator to use with Git Bash {% endcomment %}
               <li>
-                <strong>
                   Ensure that "Use Windows' default console window" is selected and click on "Next".
-                </strong>
               </li>
               {% comment %} Configuring extra options {% endcomment %}
               <li>
 		Ensure that "Default (fast-forward or merge) is selected and click "Next"
               </li>
               <li>
-		Ensure that "Git Credential Manager <strong>Core</strong>" is selected and click on "Next".
+		Ensure that "Git Credential Manager Core" is selected and click on "Next".
               </li>
               <li>
 		Ensure that "Enable file system caching" is selected and click on "Next".
