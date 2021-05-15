@@ -208,7 +208,7 @@ Edit the text to match who can attend the workshop. For instance:
 {% comment%}
 CODE OF CONDUCT
 {% endcomment %}
-<h2 id="code-of-conduct">Code of Conduct</h2>
+<h3 id="code-of-conduct"><u>Code of Conduct</u></h3>
 
 <p>
 Everyone who participates in Carpentries activities is required to conform to the <a href="https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html">Code of Conduct</a>. This document also outlines how to report an incident if needed.
@@ -244,7 +244,7 @@ We will use this <a href="{{ page.collaborative_notes }}">collaborative document
 <hr/>
 {% endif %}
 
-<h2>Workshop Info</h2>
+<h3><u>Workshop Preparation</u></h3>
 
 <p>
   This Google Doc at <a href="https://docs.google.com/document/d/1Pj1igupTrAa04KyEx19OTJVi8j-O5n2aKE7DtUcjcFQ/edit">https://docs.google.com/document/d/1b3c4Um68zARppshBoxQ5uotrOjG0_Vn50VuVo-Wk1z8/edit?usp=sharing</a> holds additional IMPORTANT information on the workshop and how to prepare for it. 
@@ -254,7 +254,7 @@ We will use this <a href="{{ page.collaborative_notes }}">collaborative document
 SURVEYS - DO NOT EDIT SURVEY LINKS
 {% endcomment %}
 <!--
-<h2 id="surveys">Surveys</h2>
+<h3 id="surveys"><u>Surveys</u></h3>
 <p>Please be sure to complete these surveys before and after the workshop.</p>
 <p><a href="{{ site.pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
 <p><a href="{{ site.post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
@@ -285,7 +285,7 @@ of code below the Schedule `<h2>` header below with
 {% endcomment %}
 
 <!--
-<h2 id="schedule">Schedule</h2>
+<h3 id="schedule"><u>Schedule</u></h3>
 
 {% if site.carpentry == "swc" %}
 {% include swc/schedule.html %}
@@ -304,7 +304,7 @@ how one of these schedule tables is constructed.
 -->
 <hr/>
 
-<h2 id="syllabus">Syllabus</h2>
+<h3 id="syllabus"><u>Syllabus</u></h3>
 
 <div class="row">
   <div class="col-md-6">
@@ -370,7 +370,7 @@ please preview your site before committing, and make sure to run
 'tools/check' as well.
 {% endcomment %}
 
-<h2 id="setup">Setup</h2>
+<h3 id="setup"><u>Setup</u></h3>
 
 <p>
   To participate in a
