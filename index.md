@@ -5,7 +5,7 @@ layout: workshop      # DON'T CHANGE THIS.
 # https://carpentries.github.io/workshop-template/customization/index.html
 venue: "University of Arizona"        # brief name of the institution that hosts the workshop without address (e.g., "Euphoric State University")
 address: "online"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
-country: "us"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes) for the institution that hosts the workshop
+country: "us"      # lowercase two-letter ISO country such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes) for the institution that hosts the workshop
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the
 latitude: "32.231901"        # decimal latitude of workshop venue (use https://www.latlong.net/)
 longitude: "110.9495000"       # decimal longitude of the workshop venue (use https://www.latlong.net)
@@ -319,7 +319,6 @@ how one of these schedule tables is constructed.
       <li>Pipes and Redirection</li>
       <li>Looping Over Files</li>
       <li>Creating and Running Shell Scripts</li>
-      <li>Finding Things</li>
     </ul> 
     <u>Additional Resources:</u>
       <ul>
@@ -337,14 +336,10 @@ how one of these schedule tables is constructed.
   Using git (on your local computer) and GitHub (in the cloud), the workshop will introduce these version control concepts and procedures:<br>
     <br>
     <ul>
-      <li>Creating a Repository</li>
+      <li>Creating and initializing a Repository: <code>init</code></li>
       <li>Recording Changes to Files: <code>add</code>, <code>commit</code>, ...</li>
-      <li>Viewing Changes: <code>status</code>, <code>diff</code>, ...</li>
-      <li>Ignoring Files</li>
+      <li>Viewing Changes: <code>status</code>, ...</li>
       <li>Working on the Web: <code>clone</code>, <code>pull</code>, <code>push</code>, ...</li>
-      <li>Resolving Conflicts</li>
-      <li>Open Licenses</li>
-      <li>Where to Host Work, and Why</li>
     </ul>
     <u>Additional Resources:</u>
 	  <ul>
