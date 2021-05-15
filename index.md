@@ -20,11 +20,9 @@ collaborative_notes: http://pad.software-carpentry.org/KEYS2021-Training # optio
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
 
-
-
 <h2 id="general">FOUNDATIONAL COMPUTATIONAL SKILLS</h2>
 
-<h3 id="general">General Information</h3>
+<h3 id="general"><u>General Information</u></h3>
 
 {% comment %}
 INTRODUCTION
@@ -238,7 +236,7 @@ Note we also have a CodiMD (the open-source version of HackMD)
 available at https://codimd.carpentries.org
 {% endcomment %}
 {% if page.collaborative_notes %}
-<h2 id="collaborative_notes">Collaborative Notes</h2>
+<h3 id="collaborative_notes"><u>Collaborative Notes</u></h3>
 
 <p>
 We will use this <a href="{{ page.collaborative_notes }}">collaborative document</a> for chatting, taking notes, and sharing URLs and bits of code.
