@@ -13,7 +13,7 @@ humandate: "June 8, 2021"    # human-readable dates for the workshop (e.g., "Feb
 humantime: "8:00 am - 12:00 pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2021-06-07      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2021-06-11        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["Uwe Hilgert et al."] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+instructor: ["Uwe Hilgert et aliter"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: ["KEYS Crew", "KEYS Staff", "Jonathan King", "Isabella Viney"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["hilgert@bio5.org"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes: http://pad.software-carpentry.org/KEYS2021-Training # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
@@ -247,7 +247,7 @@ We will use this <a href="{{ page.collaborative_notes }}">collaborative document
 <h3><u>Workshop Preparation</u></h3>
 
 <p>
-  This Google Doc at <a href="https://docs.google.com/document/d/1Pj1igupTrAa04KyEx19OTJVi8j-O5n2aKE7DtUcjcFQ/edit">https://docs.google.com/document/d/1b3c4Um68zARppshBoxQ5uotrOjG0_Vn50VuVo-Wk1z8/edit?usp=sharing</a> holds additional IMPORTANT information on the workshop and how to prepare for it. 
+  This Google Doc at <a href="https://docs.google.com/document/d/1b3c4Um68zARppshBoxQ5uotrOjG0_Vn50VuVo-Wk1z8/edit?usp=sharing">https://docs.google.com/document/d/1b3c4Um68zARppshBoxQ5uotrOjG0_Vn50VuVo-Wk1z8/edit?usp=sharing</a> holds additional IMPORTANT information on the workshop and how to prepare for it. 
 <p>
 
 {% comment %}
