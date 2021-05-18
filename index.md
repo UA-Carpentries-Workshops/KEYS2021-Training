@@ -353,21 +353,11 @@ how one of these schedule tables is constructed.
   </div>
 </div>
 
-{% comment %}
-SETUP
-
-Delete irrelevant sections from the setup instructions.  Each
-section is inside a 'div' without any classes to make the beginning
-and end easier to find.
-
-This is the other place where people frequently make mistakes, so
-please preview your site before committing, and make sure to run
-'tools/check' as well.
-{% endcomment %}
 
 <h3 id="setup"><u>Setup</u></h3>
 
 <p>
+{% comment %}
   To participate in a
   {% if site.carpentry == "swc" %}
   Software Carpentry
@@ -379,11 +369,23 @@ please preview your site before committing, and make sure to run
   workshop,
   you will need access to software as described below.
   In addition, you will need an up-to-date web browser.
+{% endcomment %}
 </p>
+
 <p>
-  We maintain a list of common issues that occur during installation as a reference for instructors
-  that may be useful on the
+  To participate in the workshop,
+  you will need access to software as described below.
+  In addition, you will need an up-to-date web browser.
+Prior to your scheduled Zoom Practice meeting, install the software below on your computer, following the instructions provided for your operating system (Windows, Mac, Unix).
+</p>
+
+<p>
+ You can find a list of common issues that may occur during installation at 
   <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
+  </p>
+
+<p>
+  We will try to address any remaining issues in the pre-KEYS Zoom meetings – so, if you experience unsurmountable hurdles, take good notes about what you did and what went wrong. (Screenshots would be helpful for trouble-shooting!) You can also send an email to hilgert@bio5.org with any computational issues you may encounter and we'll try to get you help as quickly as possible.
 </p>
 
 {% comment %}
@@ -396,6 +398,7 @@ If you do not use Zoom for your online workshop, edit the file
 `_includes/install_instructions/videoconferencing.html`
 to include the relevant installation instrucctions.
 {% endcomment %}
+
 {% if online != "false" %}
 {% include install_instructions/videoconferencing.html %}
 {% endif %}
@@ -416,3 +419,26 @@ Please check the "Setup" page of
 [the lesson site]({{ site.lesson_site }}) for instructions to follow
 to obtain the software and data you will need to follow the lesson.
 {% endif %}
+
+
+
+<h3 id="vpn">Very Private Network (VPN)</h3>
+
+<p>
+The UA Virtual Private Network (VPN) provides a secure connection from your home computer, laptop, or mobile device to the UA's network. It is also a valuable security tool when you are on an unsecured wireless network (e.g., coffee shops, airports).
+</p>
+
+
+<h4>Install UA VPN on your computer</h4>
+
+<p>
+  <ul>
+    <li>Go to the University of Arizona’s Information Technology (UITS) site at <a href="https://it.arizona.edu/">https://it.arizona.edu/</a>.
+    <li>Click on the ‘UA Virtual Private Network (VPN)’ Tile.</li>
+    <li>Click on the ‘Support, How-To’s & Info’ tab.</li>
+    <li>In the ‘Installation’ section select the ‘UA VPN Download and Installation Instructions’ for your Operating System.</li>
+    <li>Follow the instructions to install VPN on your computer.</li>
+    <li>In the ‘Prerequisite and Training Links’ section, open ‘Connecting the UA VPN Basics for Mac and PC’ and watch the video applicable to your operating system. Then, follow the instructions to connect your machine to the UA VPN.</li>
+  </ul>
+Again, we will try to address any issues in the pre-KEYS Zoom meetings – so, if you experience unsurmountable hurdles, take good notes about what you did and what went wrong. (Screenshots would be helpful for trouble-shooting!) You can also send an email to hilgert@bio5.org with any comutational issues you may encounter and we'll try to get you help as quickly as possible.
+</p>
