@@ -385,7 +385,7 @@ Prior to your scheduled Zoom Practice meeting, install the software below on you
   </p>
 
 <p>
-  We will try to address any remaining issues in the pre-KEYS Zoom meetings – so, if you experience unsurmountable hurdles, take good notes about what you did and what went wrong. (Screenshots would be helpful for trouble-shooting!) You can also send an email to hilgert@bio5.org with any computational issues you may encounter and we'll try to get you help as quickly as possible.
+  We will try to address any remaining issues in the Zoom Practice meetings – so, if you experience unsurmountable hurdles, take good notes about what you did and what went wrong. (Screenshots would be helpful for trouble-shooting!) You can also send an email to hilgert@bio5.org with any computational issues you may encounter and we'll try to get you help as quickly as possible.
 </p>
 
 {% comment %}
@@ -440,5 +440,5 @@ The UA Virtual Private Network (VPN) provides a secure connection from your home
     <li>Follow the instructions to install VPN on your computer.</li>
     <li>In the ‘Prerequisite and Training Links’ section, open ‘Connecting the UA VPN Basics for Mac and PC’ and watch the video applicable to your operating system. Then, follow the instructions to connect your machine to the UA VPN.</li>
   </ul>
-Again, we will try to address any issues in the pre-KEYS Zoom meetings – so, if you experience unsurmountable hurdles, take good notes about what you did and what went wrong. (Screenshots would be helpful for trouble-shooting!) You can also send an email to hilgert@bio5.org with any comutational issues you may encounter and we'll try to get you help as quickly as possible.
+Again, we will try to address any issues in the Zoom Practice meetings – so, if you experience unsurmountable hurdles, take good notes about what you did and what went wrong. (Screenshots would be helpful for trouble-shooting!) You can also send an email to hilgert@bio5.org with any comutational issues you may encounter and we'll try to get you help as quickly as possible.
 </p>
