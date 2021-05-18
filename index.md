@@ -407,7 +407,6 @@ to obtain the software and data you will need to follow the lesson.
 {% endif %}
 
 
-
 <h3 id="vpn">Very Private Network (VPN)</h3>
 
 <p>
