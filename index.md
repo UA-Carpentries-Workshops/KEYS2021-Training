@@ -358,11 +358,9 @@ how one of these schedule tables is constructed.
 
 <p>
   To participate in the workshop,
-  you will need to have the software listed below. If you already have some of it, please uninstall it and then install the versions below - this is the only way to ensure that you will be using the same software as your instructors and fellow KEYS interns. This includes installing UA VPN, regardless of whether you already have another type of vpn software or not.</p>
-<p>  In addition, you will need an up-to-date web browser. We recommend Firefox and/or Safari. Chrome may work, too. MS Edge or Internet Explorer, maybe...
-  In addition, you will need an up-to-date web browser.
-Prior to your scheduled Zoom Practice meeting, install the software below on your computer, following the instructions provided for your operating system (Windows, Mac, Unix).
-</p>
+  you will need to have the software listed below; please install, following the instructions provided for your computer's operating system (Windows, Mac, Unix). If you already have some of it, please uninstall it and then install the versions below - this is the only way to ensure that you will be using the same software as your instructors and fellow KEYS interns. This includes installing UA VPN, regardless of whether you already have another type of vpn software or not.</p>
+
+<p>  In addition, you will need an up-to-date web browser. We recommend Firefox and/or Safari. Chrome may work, too. MS Edge or Internet Explorer, maybe...</p>
 
 <p>
  You can find a list of common issues that may occur during installation at 
