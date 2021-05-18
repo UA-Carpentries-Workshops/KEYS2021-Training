@@ -368,7 +368,7 @@ how one of these schedule tables is constructed.
   {% endif %}
   workshop,
   you will need access to software as described below.
-  In addition, you will need an up-to-date web browser.
+  In addition, you will need an up-to-date web browser. We recommend Firefox and/or Safari. Chrome may work, too. MS Edge or Internet Explorer, maybe...
 {% endcomment %}
 </p>
 
@@ -433,7 +433,7 @@ The UA Virtual Private Network (VPN) provides a secure connection from your home
 
 <p>
   <ul>
-    <li>Go to the University of Arizona’s Information Technology (UITS) site at <a href="https://it.arizona.edu/">https://it.arizona.edu/</a>.
+    <li>Go to the University of Arizona’s Information Technology (UITS) site at <a href="https://it.arizona.edu/">https://it.arizona.edu/</a>.</li>
     <li>Click on the ‘UA Virtual Private Network (VPN)’ Tile.</li>
     <li>Click on the ‘Support, How-To’s & Info’ tab.</li>
     <li>In the ‘Installation’ section select the ‘UA VPN Download and Installation Instructions’ for your Operating System.</li>
